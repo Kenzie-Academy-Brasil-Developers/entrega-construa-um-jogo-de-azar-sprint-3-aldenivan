@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Azar - Entrega 21</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Jokenpô</h1>
+    </header>
+
+    <main class="container">
+
+        <section class="container">
+        
+            <div id="choosePlayer">
+                <div id="stone" class="jokenpo">
+                    <figure>
+                        <img src="./img/pedra.png" alt="pedra">
+                        <figcaption class="hidden">Pedra</figcaption>
+                    </figure>
+                </div>
+
+                <div id="paper" class="jokenpo">
+                    <figure>
+                        <img src="./img/papel.png" alt="papel">
+                        <figcaption class="hidden">Papel</figcaption>
+                    </figure>
+                </div>
+                
+                <div id="scissors" class="jokenpo">
+                    <figure>
+                        <img src="./img/tesoura.png" alt="tesoura">
+                        <figcaption class="hidden">Tesoura</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="startFight">
+                <h1>Figth</h1>
+
+                <div id="figth">
+                    <div id="player">
+                        <h2>Jogador</h2>
+
+                        <div id="figthPlayer">
+                            
+                        </div>
+                    </div>
+
+                    <div class="versus">
+                        <img src="./img/versus.png" alt="versus">
+                    </div>
+
+                    <div id="machine">
+                        <h2>Máquina</h2>
+
+                        <div id="figthMachine">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="showResult">-</div>
+
+            <div id="pointsJokenpo">
+                <h1>Pontos</h1>
+
+                <div id="points">
+                    <div id="pointPlayer">
+                        <h3>Jogador</h3>
+
+                        <div id="countPlayer">0</div>
+                    </div>
+
+                    <div id="pointMachine">
+                        <h3>Máquina</h3>
+
+                        <div id="countMachine">0</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

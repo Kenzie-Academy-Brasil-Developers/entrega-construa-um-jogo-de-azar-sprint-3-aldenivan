@@ -1,0 +1,245 @@
+body {
+    padding: 30px 5px;
+    background: url(../img/jogoDeAzar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.144);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.514);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+section {
+    padding-top: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+#choosePlayer {
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jokenpo img{
+    margin: 10px 0;
+    width: 100px;
+    transform: rotate(25deg);
+}
+
+.hidden {
+    display: none;
+}
+
+.startFight {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 2px rgba(0, 0, 0, 0.322);
+}
+
+.startFight h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 2rem;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+}
+
+#figth {
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+#figth h2 {
+    font-size: 1.5rem;
+    color: aquamarine;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+}
+
+#player {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#player img, #machine img {
+    width: 100px;
+    margin-top: 30px;
+}
+
+.versus img {
+    width: 50px;
+}
+
+#machine {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#showResult {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Permanent Marker', cursive;
+    padding: 15px 0;
+}
+
+#pointsJokenpo {
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-top: solid 2px rgba(0, 0, 0, 0.322);
+}
+
+#pointsJokenpo h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#points {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#points h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: red;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#pointPlayer, #pointMachine {
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#countPlayer, #countMachine {
+    font-size: 1.5rem;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+}
+
+@media screen and (min-width: 600px) {
+    
+    header h1 {
+        font-size: 5rem;
+    }
+   
+    .jokenpo {
+        margin: 30px;
+    }
+
+    .jokenpo img{
+        width: 180px;
+    }
+
+    .jokenpo img:hover {
+        cursor: pointer;
+        border-radius: 20px;
+        margin-right: 15px;
+		-webkit-box-shadow: 9px 7px 5px rgba(238, 255, 4, 0.856);
+		-moz-box-shadow:    9px 7px 5px rgba(238, 255, 4, 0.856);
+		box-shadow:         9px 7px 5px rgba(238, 255, 4, 0.856);
+    }
+
+    .startFight {
+        margin-top: 40px;
+    }
+
+    .startFight h1 {
+        font-size: 4rem;
+        margin-bottom: 30px;
+    }
+
+    #figth {
+        height: 140px;
+    }
+    
+    #figth h2 {
+       font-size: 2rem
+    }
+    
+    #player img, #machine img {
+        width: 140px;
+        margin: 20px 0;
+    }
+
+    #showResult {
+        font-size: 2rem;
+    }
+
+    #pointsJokenpo {
+        height: 180px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    #pointsJokenpo h1 {
+        font-size: 2.5rem;
+    }
+
+    #points h3 {
+        font-size: 2rem;   
+        margin-bottom: 20px;
+    }
+
+    #countPlayer, #countMachine {
+        font-size: 2.5rem;
+    }
+}
